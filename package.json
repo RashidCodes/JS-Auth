@@ -1,0 +1,28 @@
+{
+  "name": "js-auth",
+  "version": "1.0.0",
+  "description": "nodejs authentication with jwt",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruujinjaka/JS-Auth.git"
+  },
+  "author": "rashid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruujinjaka/JS-Auth/issues"
+  },
+  "homepage": "https://github.com/Ruujinjaka/JS-Auth#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  }
+}
